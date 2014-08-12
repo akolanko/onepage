@@ -1,0 +1,13 @@
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:vistied{
+	color: #000;
+}
+
+a:hover{
+	opacity: .4;
+	cursor: url(cursor1.png), auto;
+}

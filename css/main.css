@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "SackersGothicStd-Medium", "Arial", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin: 0;
+  cursor: url(cursor1.png), auto; }
+
+.clear {
+  clear: both; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+a:vistied {
+  color: #000; }
+
+a:hover {
+  opacity: .4;
+  cursor: url(cursor1.png), auto; }
+
+nav {
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+  height: 50px;
+  padding-top: 10px;
+  position: fixed; }
+  nav ul#menu {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    nav ul#menu li.menu-item {
+      display: inline;
+      padding: 0 20px;
+      margin: 0; }
+    nav ul#menu li#title {
+      font-size: 1.4em; }
+    nav ul#menu div#menu-links {
+      float: right; }
+
+section {
+  width: 100%;
+  padding: 100px 0 120px 0; }
+
+.column-container {
+  width: 1000px;
+  margin: 0 auto; }
+
+.column-one {
+  width: 500px;
+  float: left; }
+
+.column-two {
+  width: 500px;
+  float: left; }
+
+.img-container {
+  width: 50%;
+  float: left; }
+
+.img-thumb {
+  width: 100%;
+  padding: 5%; }
+
+.full-width-container {
+  width: 500px;
+  padding: 12.5px; }
+
+.full-width {
+  width: 100%; }
+
+.small-thumb-container {
+  width: 500px;
+  padding: 12.5px; }
+
+.small-thumb {
+  width: 118.75px;
+  float: left; }
+
+.section-four-images {
+  width: 994px;
+  margin: 0 auto; }
+
+#column-left {
+  float: left; }
+
+#column-middle {
+  float: left; }
+
+#column-right {
+  float: left; }
+
+#tounge {
+  height: 354px;
+  margin-right: 5px; }
+
+#cat {
+  height: 177px;
+  display: block;
+  margin: 0 5px;
+  padding-bottom: 5px; }
+
+#photoshop {
+  height: 177px;
+  display: block;
+  margin: 0 5px;
+  padding-top: 5px; }
+
+#woman {
+  height: 354px;
+  margin-left: 5px; }
+
+#close-button {
+  font-family: inherit;
+  background-color: rgba(255, 255, 255, 0);
+  color: #000;
+  font-size: 1.5em;
+  border: none; }
+
+#close-button:hover {
+  cursor: url(cursor1.png), auto;
+  opacity: .5; }
+
+.lightbox-on {
+  overflow: hidden; }
+
+.lightbox-wrapper {
+  background: rgba(233, 233, 233, 0.5);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  display: none; }
+
+.lightbox {
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  margin-top: -171px;
+  height: 342px;
+  width: 453px; }
+
+#button-container {
+  height: 31px;
+  text-align: right; }
+
+#lightbox-img-container {
+  height: 311px; }
+
+.lightbox-click:hover {
+  opacity: .7; }

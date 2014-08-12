@@ -1,0 +1,12 @@
+#close-button{
+	font-family: inherit;
+	background-color: rgba(255, 255, 255, 0);
+	color: #000;
+	font-size: 1.5em;
+	border: none;
+}
+
+#close-button:hover{
+	cursor: url(cursor1.png), auto;
+	opacity: .5;
+}
